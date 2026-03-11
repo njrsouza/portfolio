@@ -41,8 +41,8 @@
         ]
     },
     "languages": [
-        "Português BR",
-        "Inglês (intermediário)"
+        "Português (BR)",
+        "Inglês (Intermediário)"
     ],
     "portfolio": [
         {
@@ -52,7 +52,7 @@
         },
         {
             "name": "HBO Max",
-            "url": "https://github.com/RenanJPaula/desafio-hboxmax",
+            "url": "https://github.com/njrsouza/desafio-hboxmax",
             "github": true
         }
     ],
@@ -61,6 +61,13 @@
             "name": "Pesquisador Bolsista - FACEPE/Stellantis",
             "period": "Março 2024 - Maio 2024",
             "description": "Desenvolvimento de modelos de Machine Learning voltados para a predição de falhas em componentes veiculares. Fui responsável pelas etapas de análise e tratamento de dados para otimizar os modelos preditivos, garantindo a precisão e a confiabilidade das informações obtidas."
+        }
+    ],
+    "Education": [
+        {
+            "name": "Engenharia da Computação - UFPE",
+            "period": "(2023 - 2028)",
+            "local": "UFPE - Recife"
         }
     ]
 }
