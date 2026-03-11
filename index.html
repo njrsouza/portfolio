@@ -9,6 +9,8 @@
     <title>Portfólio</title>
 </head>
 
+
+
 <body class="bg-gradient-to-br from-[#020617] via-[#0f172a] to-black flex items-center justify-center min-h-screen">
 
     <div
@@ -19,25 +21,25 @@
 
         <header class="flex flex-col md:flex-row gap-[1rem] items-center md:items-start">
 
-            <img src="assets/img/.jpeg" alt="" class="w-32 h-32  md:w-48 md:h-48 rounded-full">
+            <img src="" id="profile-photo" alt="" class="w-32 h-32  md:w-48 md:h-48 rounded-full">
 
             <div class="flex flex-col justify-center item-start">
-                <h1 class="text-3xl w-1/2 mb-3 font-semibold self-center md:self-start">Nelson Souza</h1>
-                <div class="flex items-center gap-2"><img class="max-h-3 w-5 object-contain" src="assets/img/ex.png"
-                        alt="">
-                    <p>Front-End Developer</p>
+                <h1 class="text-3xl w-1/2 mb-3 font-semibold self-center md:self-start" id="profile-name"></h1>
+                <div class="flex items-center gap-2">
+                    <img class="max-h-3 w-5 object-contain" src="assets/img/local.png" alt="">
+                    <p id="job"></p>
                 </div>
-                <div class="flex items-center gap-2"><img class="max-h-3 w-5 object-contain" src="assets/img/local.png"
-                        alt="">
-                    <p>Recife - PE</p>
+                <div class="flex items-center gap-2">
+                    <img class="max-h-3 w-5 object-contain" src="assets/img/local.png" alt="">
+                    <p id="location"></p>
                 </div>
-                <div class="flex items-center gap-2"><img class="max-h-3 w-5 object-contain" src="assets/img/wpp.png"
-                        alt="">
-                    <p>(81) 9 9781-3304</p>
+                <div class="flex items-center gap-2">
+                    <img class="max-h-3 w-5 object-contain" src="assets/img/wpp.png" alt="">
+                    <p id="number"></p>
                 </div>
-                <div class="flex items-center gap-2"><img class="max-h-3 w-5 object-contain" src="assets/img/mail.png"
-                        alt="">
-                    <p>njrsouza@outlook.com</p>
+                <div class="flex items-center gap-2">
+                    <img class="max-h-3 w-5 object-contain" src="assets/img/mail.png" alt="">
+                    <p id="email"></p>
                 </div>
             </div>
         </header>
@@ -52,24 +54,15 @@
                 </div>
 
                 <div class="extra-content hidden gap-8 justify-center">
-                    <div class="habilidades-profissionais flex flex-col">
-                        <h3 class="text-sm font-semibold mb-3 text-nowrap">Habilidades Profissionais</h3>
-                        <div class="grid grid-cols-2 gap-4 place-items-center">
-                            <img src="assets/img/js.png" alt="" class="max-h-14">
-                            <img src="assets/img/react.png" alt="" class="max-h-14">
-                            <img src="assets/img/py.png" alt="" class="max-h-14">
-                            <img src="assets/img/c.png" alt="" class="max-h-14">
-                        </div>
+
+                    <div class="flex flex-col">
+                        <h3 class="text-sm text-center font-semibold mb-3">Hard Skills</h3>
+                        <div id="hardSkills" class="grid grid-cols-2 gap-4 place-items-center"></div>
                     </div>
-                    <div class="habilidades-pessoais text-sm flex flex-col items-center">
-                        <h3 class="text-sm font-semibold mb-3">Habilidades Pessoais</h3>
-                        <ul class="font-normal list-disc list-inside">
-                            <li>Proatividade</li>
-                            <li>Adaptabilidade</li>
-                            <li>Aprendizado rápido</li>
-                            <li>Comunicativo</li>
-                            <li>Trabalho em equipe</li>
-                        </ul>
+
+                    <div class="text-sm flex flex-col items-center">
+                        <h3 class="text-sm text-center font-semibold mb-3">Soft Skills</h3>
+                        <ul id="softSkills" class="font-normal list-disc list-inside"></ul>
                     </div>
 
                 </div>
@@ -84,10 +77,9 @@
                     <img src="assets/img/seta.png" alt="" class="max-h-3">
                 </div>
 
-                <div class="extra-content hidden  gap-2">
-                    <p class="font-semibold text-sm">Português (BR)</p>
-                    <p class="font-semibold text-sm">Inglês (intermediário)</p>
-                </div>
+                <div id="idioma" class="extra-content hidden  gap-2"></div>
+
+
 
             </div>
             <div
@@ -98,38 +90,23 @@
                     <img src="assets/img/seta.png" alt="" class="max-h-3">
                 </div>
 
-                <div class="extra-content hidden  gap-2">
-                    <div class="flex flex-col gap-1">
-                        <h3 class="text-sm">UFPE - Engenharia da Computação</h3>
-                        <p class="text-sm font-normal">Recife (2023 - 2028)</p>
-                    </div>
-                </div>
+                <div id="education" class="extra-content hidden  gap-2"></div>
 
             </div>
+
             <div
                 class="section border rounded-2xl border-white p-4 w-90 font-bold text-xl flex flex-col gap-5 justify-between hover:bg-[#55569E] hover:border-transparent hover:cursor-pointer">
 
+
                 <div class="flex justify-between items-center">
-                    Portfólio
+                    Projetos
                     <img src="assets/img/seta.png" alt="" class="max-h-3">
                 </div>
 
                 <div class="extra-content hidden gap-2">
-                    <div class="flex flex-col gap-2">
 
-                        <div class="flex items-center gap-2">
-                            <img class="max-h-5" src="assets/img/github.png" alt="">
-                            <a class="underline font-semibold" href="https://github.com/njrsouza/pokedex"
-                                target="_blank">Pokedex</a>
-                        </div>
+                    <div id="projects" class="flex flex-col gap-2"></div>
 
-                        <div class="flex items-center gap-2">
-                            <img class="max-h-5" src="assets/img/github.png" alt="">
-                            <a class="underline font-semibold" href="https://github.com/njrsouza/desafio-hboxmax"
-                                target="_blank">HBO Max</a>
-                        </div>
-
-                    </div>
                 </div>
 
             </div>
@@ -141,33 +118,14 @@
                     <img src="assets/img/seta.png" alt="" class="max-h-3">
                 </div>
 
-                <div class="extra-content hidden  gap-2">
-
-                    <div class="flex flex-col gap-2">
-
-                        <h4 class="text-lg">Pesquisador Bolsista - FACEPE/Stellantis</h4>
-
-                        <div class="flex items-center gap-2">
-                            <img class="max-h-5" src="assets/img/calendario.png" alt="">
-                            <p class="font-normal text-base">Março 2024 - Maio 2024</p>
-                        </div>
-
-                        <p class="text-base font-normal">Atuei no desenvolvimento de modelos de Machine Learning
-                            voltados para a predição de falhas em componentes veiculares. Fui responsável pelas
-                            etapas de análise e tratamento de dados para otimizar os modelos preditivos, garantindo a
-                            precisão e a confiabilidade das informações
-                            obtidas.</p>
-                    </div>
-
-
-
-                </div>
-
+                <div id="experience" class="extra-content hidden  gap-2"></div>
             </div>
         </main>
     </div>
 
     <script src="assets/js/extraContent.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
