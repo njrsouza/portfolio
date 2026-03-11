@@ -63,7 +63,7 @@
             "description": "Desenvolvimento de modelos de Machine Learning voltados para a predição de falhas em componentes veiculares. Fui responsável pelas etapas de análise e tratamento de dados para otimizar os modelos preditivos, garantindo a precisão e a confiabilidade das informações obtidas."
         }
     ],
-    "Education": [
+    "education": [
         {
             "name": "Engenharia da Computação - UFPE",
             "period": "(2023 - 2028)",
