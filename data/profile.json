@@ -40,17 +40,17 @@
   "portfolio": [
     {
       "name": "Pokedex",
-      "url": "https://github.com/njrsouza/pokedex",
+      "url": "https://njrsouza.github.io/pokedex/",
       "github": true
     },
     {
       "name": "HBO Max",
-      "url": "https://github.com/njrsouza/desafio-hboxmax",
+      "url": "https://njrsouza.github.io/desafio-hboxmax/",
       "github": true
     },
     {
       "name": "Discord",
-      "url": "https://github.com/njrsouza/desafio-responsividade-dio",
+      "url": "https://njrsouza.github.io/desafio-responsividade-dio/",
       "github": true
     }
   ],
